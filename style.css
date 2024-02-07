@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://builtin.com/sites/www.builtin.com/files/styles/og/public/2023-01/Data%20Visualization.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.db {
+  position: absolute;
+  height: 500px;
+  width: 800px;
+  left: 25%;
+  top: 10%;
+}
+
+.first,
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(42, 203, 83);
+}
+
+.second {
+  color: blueviolet;
+}
